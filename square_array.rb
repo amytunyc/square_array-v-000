@@ -3,5 +3,6 @@ def square_array(array)
   array.each do |i|
     new_array << i*i
   end
+  new_array
 end
 
